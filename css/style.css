@@ -1,0 +1,610 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* start of Nav bar */
+
+nav{
+    background-color: rgb(0, 0, 155);
+    overflow: hidden;
+    padding-bottom: 30px;
+    position: relative;
+}
+
+nav ul{
+    list-style-type: none;
+    margin-left: 120px;
+}
+
+nav ul li{
+    float: left;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+    padding: 30px 20px;
+    font-weight: bold;
+    text-shadow: 2px 2px black;
+}
+
+nav ul li:nth-child(7){
+   position: absolute;
+   left: 1130px;
+}
+
+nav ul li:nth-child(6){
+    position: absolute;
+    left: 1010px;
+}
+
+@keyframes example{
+    from{background-color: none;}
+    to{background-color: rgb(124, 120, 120);}
+}
+
+nav ul li a:hover{
+    animation-name: example;
+    animation-duration: .75s;
+    animation-fill-mode:forwards ;
+}
+
+.active{
+    background-color: rgb(124, 120, 120);
+}
+
+/* End of Nav bar */
+
+/* start of welcome section */
+
+.welcome{
+    margin: 30px 80px;
+    background-image: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)),url(../images/mercedes/car1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 80vh;
+    position: relative;
+    margin-bottom: 60px;
+}
+
+.welcome h1{
+    position: absolute;
+    top: 35%;
+    left: 26%;
+    color: white;
+    font-size: 60px;
+    text-shadow: 5px 3px black;
+}
+
+.Register-btn{
+    position: absolute;
+    top: 60%;
+    left: 35%;
+    font-size: 24px;
+    padding: 15px 25px;
+    border-radius: 15px 30px;
+    cursor: pointer;
+    outline: none;
+    border: 2px solid black;
+    color: blue;
+}
+
+.Book-btn{
+    position: absolute;
+    top: 60%;
+    left: 55%;
+    font-size: 24px;
+    padding: 15px 25px;
+    border-radius: 30px 15px;
+    cursor: pointer; 
+    outline: none;
+    border: 2px solid black;
+    color: blue;
+}
+/* End of welcome section */
+
+/* start of search section */
+
+.search{
+    width: 100%;
+    position: relative;
+}
+
+.search h2{
+    position: absolute;
+    left: 47%;
+    color: rgb(27, 27, 150);
+    font-size: 40px;
+    margin-top: 40px;
+    text-shadow: 1px 2px 4px black;
+}
+
+.search form{
+    position: absolute;
+    top: 150px;
+    width: 60%;
+    margin-left: 20%;
+    border: 2px solid blue;
+    height: 350px;
+    padding-top: 20px;
+}
+
+.label1{
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 20px;
+}
+.brand{
+    width: 500px;
+    height: 50px;
+    border-radius: 40px;
+    padding: 10px 20px;
+    color: rgb(7, 7, 14);
+    font-size: 26px;
+    border: 2px solid rgb(118, 118, 223);
+    margin-left: 20px;
+}
+
+.model{
+    width: 500px;
+    height: 50px;
+    border-radius: 40px;
+    padding: 10px 20px;
+    color: rgb(0, 0, 255);
+    font-size: 26px;
+    border: 2px solid rgb(118, 118, 223);
+    margin-left: 20px;
+}
+
+.search form input[type=number]{
+    width: 460px;
+    height: 30px;
+    border-radius: 40px;
+    padding: 10px 20px;
+    color: blue;
+    font-size: 26px;
+    border: 2px solid rgb(118, 118, 223);
+    margin-left: 20px;
+}
+
+.search form input[type=submit]{
+    margin-left: 37%;
+    margin-top: 30px;
+    width: 250px;
+    height: 60px;
+    border: 2px solid rgb(118, 118, 223);
+    background-color: cyan;
+    font-size: 26px;
+    cursor: pointer;
+    margin-bottom: 70px;
+}
+
+@keyframes hover-submit{
+    from{background-color: cyan;}
+    to{background-color: darkblue;}
+}
+ 
+.search form input[type=submit]:hover{
+    animation-name: hover-submit;
+    animation-duration: .75s;
+    animation-fill-mode:forwards ;
+}
+
+/* End of search section */
+
+/* start of brands section */
+
+.brands-btn{
+    position: relative;
+}
+
+.brands-btn img:nth-child(1){
+    position: absolute;
+    top: 650px;
+    left: 300px;
+    cursor: pointer;
+    transition: width 1s;
+}
+
+.brands-btn img:nth-child(2){
+    position: absolute;
+    top: 650px;
+    left: 630px;
+    cursor: pointer;
+    transition: width 1s;
+}
+
+.brands-btn img:nth-child(3){
+    position: absolute;
+    top: 670px;
+    left: 940px;
+    cursor: pointer;
+    transition: width 1s;
+}
+
+.brands-btn img:nth-child(1):hover{
+   width: 120px;
+}
+
+.brands-btn img:nth-child(2):hover{
+    width: 130px;
+ }
+ 
+.brands-btn img:nth-child(3):hover{
+    width: 210px;
+ }
+ /* End of brands section */
+
+ /* start of advice section */
+
+.advices{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0,0,0,.7);
+    padding-top: 200px; 
+    display: none;    
+ }
+ .overlay{
+    text-align: center;
+    background-color: blue;
+    width: 50%;   
+    height: 400px;  
+    margin-left: 30%; 
+    position: relative;
+ }
+ .overlay ul{
+     list-style-type: none;
+ }
+ .overlay ul li{
+     color: white;
+ }
+ .overlay ul li p{
+    font-size: 26px;
+    padding-top: 50px;
+}
+.fas:nth-child(2){
+    font-size: 34px;
+    color: white;
+    position: absolute;
+    top: 1px;
+    right: 1px;
+    cursor: pointer;
+}
+.open-lay{
+    display: block;
+    
+}
+
+/* End of advice section */
+/* Start of slider */
+
+.container{
+    position: relative;
+    top: 900px;
+    width: 100%;
+    height: 350px;
+    overflow: hidden;
+    transition: left 3s;
+}
+.contain{
+    width: 300%;
+    height: 350px;
+    animation:slider 10s ease-in-out;
+    animation-iteration-count:infinite ;
+    position: relative;
+}
+.div1{
+    width: 33%;
+    height: 350px;
+    background-color: blue;
+    color: white;
+    float: left;
+    position: relative;
+}
+.div1 h3{
+    position: absolute;
+    top: 50%;
+    left: 600px;
+    font-size: 26px;
+}
+.div1 img{
+    position: absolute;
+    top: 60px;
+    left: 100px;
+}
+
+.div2{
+    width: 33.33%;
+    height: 350px;
+    background-color: blue;
+    color: white;
+    float: left;
+    position: relative;
+}
+.div2 h3{
+    position: absolute;
+    top: 50%;
+    left: 600px;
+    font-size: 26px;
+}
+.div2 img{
+    position: absolute;
+    top: 60px;
+    left: 100px;
+}
+.div3{
+    width: 33.33%;
+    height: 350px;
+    background-color: blue;
+    color: white;
+    float: left;
+    position: relative;
+}
+.div3 h3{
+    position: absolute;
+    top: 50%;
+    left: 600px;
+    font-size: 26px;
+}
+.div3 img{
+    position: absolute;
+    top: 60px;
+    left: 100px;
+}
+@keyframes slider {
+    
+    0% {
+        left: 0;
+    }
+    
+    12.5% {
+        left: 0;
+    }
+    
+    25% {
+        left: 0%; 
+    }
+    
+    37.5% {
+        left: -100%; 
+    }
+    
+    50% {
+        left: -100%;
+    }
+    
+    62.5% {
+        left: -100%;
+    }
+
+    75% {
+        left: -197%;
+    }
+    
+    87.5% {
+        left: -197%;
+    }
+    
+    100% {
+        left: -197%;
+    }
+}
+
+/* End of Slider */
+/* Start of down page */
+
+.End{
+    background-image: url("../images/End.jpg");
+    background-size: cover;
+    background-repeat:no-repeat ;
+    width: 100%;
+    height: 650px;
+    position: relative;
+    top: 900px;
+}
+
+.down-logo{
+    color: white;
+    position: relative;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.down-logo h2{
+    position: absolute;
+    left: 46%;
+    top: 50px;
+}
+.down-logo p{
+    position: absolute;
+    left: 38%;
+    top: 90px;
+}
+
+.down-logo p::after{
+    content: "";
+    width: 1200px;
+    position: absolute;
+    left: 43%;
+    top: 50px;
+    height: 5px;
+    transform: translate(-50%,-50%);
+    background-color: gray;
+}
+
+.big-div{
+    position: relative;
+}
+.visit{
+    position: absolute;
+    top: 250px;
+    left: 250px;
+    color: white;
+}
+.visit h2{
+    font-size: 22px;
+}
+.visit h2::after{
+    content: "";
+    width: 100%;
+    position: absolute;
+    left: 50%;
+    top: 50px;
+    height: 5px;
+    transform: translate(-50%,-50%);
+    background-color: gray;
+}
+
+.visit ul{
+    position: absolute;
+    top: 70px;
+    left: 70px;
+    font-size:20px ;
+    list-style-type: none;
+
+}
+.visit ul li{
+    margin-bottom: 20px;
+    cursor: pointer;
+    color: rgb(105, 102, 102);
+}
+.visit ul li:hover{
+    color: blue;
+    font-style: oblique;
+}
+
+.social{
+    color: white;
+    position: absolute;
+    top: 280px;
+    left: 46%;
+    
+}
+
+.social h2{
+    font-size: 24px;   
+}
+.social h2::after{
+    content: "";
+    width: 130px;
+    position: absolute;
+    left: 65px;
+    top: 40px;
+    height: 5px;
+    transform: translate(-50%,-50%);
+    background-color: gray;
+}
+
+.face{
+    position: absolute;
+    top: 80px;
+    left: -30px;
+    font-size:36px;
+    padding: 10px 10px;
+    color: blue;
+    cursor: pointer;
+    transition: font-size .75s;
+}
+
+.twitter{
+    position: absolute;
+    top: 80px;
+    left: 40px;
+    font-size:36px;
+    padding: 10px 10px;
+    color: rgb(9, 179, 179);
+    cursor: pointer;
+    transition: font-size .75s;
+}
+
+.insta{
+    position: absolute;
+    top: 80px;
+    left: 105px;
+    color: rgb(170, 46, 170);
+    font-size:36px;
+    padding: 10px 10px;
+    cursor: pointer;
+    transition: font-size .75s;
+}
+
+.face:hover{
+    font-size: 40px;
+}
+.twitter:hover{
+    font-size: 40px;
+}
+.insta:hover{
+    font-size: 40px;
+}
+
+.pages{
+    position: absolute;
+    top: 250px;
+    left: 930px;
+}
+
+.pages h2{
+    color: white;
+    font-size: 24px;
+}
+
+.pages h2::after{
+    content: "";
+    width: 90px;
+    position: absolute;
+    left: 35px;
+    top: 40px;
+    height: 5px;
+    transform: translate(-50%,-50%);
+    background-color: gray;
+}
+
+.pages ul{
+    position: absolute;
+    top: 60px;
+    list-style-type: none;
+    left: 10px;
+}
+
+.pages ul li{
+    padding-bottom: 20px;
+}
+
+.pages ul li a{
+    text-decoration: none;
+    color: rgb(105, 102, 102);
+    font-size: 20px;
+}
+.pages ul li a:hover{
+    color: blue;
+    font-style: oblique;
+}
+
+.pages::after{
+    content: "";
+    width: 1200px;   
+    position: absolute;
+    top: 290px;
+    left: -270px;
+    height: 5px;
+    transform: translate(-50%,-50%);
+    background-color: gray;
+}
+
+.copy-right{
+    color: white;
+    position: absolute;
+    top: 570px;
+    left: 40%;
+    font-size: 40px;
+}
+
+/* End of down page */

@@ -1,0 +1,137 @@
+
+/* start of side nav */
+
+*{
+    padding: 0;
+    margin: 0;
+}
+section .side-nav{
+    width: 15%;
+   background-color : lightblue ;
+    position: fixed;
+    height: 100%;
+}
+section .side-nav ul li a{
+    display: block;
+    color:black;
+    text-decoration: none;
+    padding: 40px 50px;
+    font-size: 22px;
+    font-weight: bold;
+}
+section .side-nav ul li:hover{
+    background-color: rgb(124, 120, 120);
+}
+section .side-nav ul li a:hover{
+    color: white;
+}
+
+/* End of side Nav */
+
+.content{
+    margin-left: 16%;
+    margin-top: 15px;
+}
+.book
+{
+  position: absolute;
+  text-align: center;
+  font-size: xx-large;
+  color:rgb(12, 12, 151);
+  text-shadow:1px 1px black;
+  bottom:77%;
+  left:50%;
+}
+
+/* start of Form */
+
+.information
+{
+  position: relative;
+}
+
+.t
+{
+  font-size: large;
+  font-weight: bold;
+  color:rgb(43, 184, 231);
+  padding: 120px;
+  line-height: 40px;
+}
+
+.tt
+{
+  color:black;
+  position: absolute;
+  left:20%;
+  width:75%;
+  padding:10px;
+  top:35%;
+  font-size: 20px;
+}
+
+.bb
+{
+  color:black;
+  position: absolute;
+  left:20%;
+  width:75%;
+  bottom:42%;
+  padding:10px;
+  font-size: 20px;
+}
+
+.namep
+{
+  position: absolute;
+  left:20%;
+  bottom:66%;
+}
+.phonep
+{
+  position: absolute;
+  left:20%;
+  top:45%;  
+}
+
+.model
+{
+  position: absolute;
+  left:20%;
+  bottom:33%;
+}
+
+.models
+{
+  position: absolute;
+  left:20%;
+  bottom:27%;
+  padding:10px;
+  width:77%;
+  font-size: 18px;
+}
+
+/* End of Form */
+/* Start of changing color */
+
+.color-background
+{
+  position: absolute;
+  left:20%;
+  bottom:18%;
+  color:rgb(43, 184, 231);
+  font-weight:bold;
+  font-size:large;
+
+}
+.background
+{
+  position: absolute;
+  left:20%;
+  bottom:10%;
+  width:77%;
+  padding:10px;
+  font-size: 18px;
+}
+
+/* End of changing color */

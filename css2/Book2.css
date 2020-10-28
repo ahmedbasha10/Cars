@@ -1,0 +1,178 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav{
+    background-color:rgb(1, 1, 129);
+    overflow: hidden;
+    padding-bottom: 30px;
+    position: relative;
+  }
+  
+  nav ul{
+    list-style-type: none;
+    margin-left: 120px;
+  }
+  
+  nav ul li{
+    float: left;
+    margin-left: 50px;
+    margin-top: 30px;
+  }
+  
+  nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+    padding: 30px 20px;
+    font-weight: bold;
+    text-shadow: 2px 2px black;
+  }
+  
+  nav ul li:nth-child(6){
+    position: absolute;
+    left: 1050px;
+  }
+  
+  .fas{
+    font-size: 24px;
+    color: black;
+    padding-right: 5px;
+  }
+  
+  @keyframes example{
+    from{background-color: none;}
+    to{background-color:rgb(124, 120, 120);}
+  }
+  
+  nav ul li a:hover{
+    animation-name: example;
+    animation-duration: 1s;
+    animation-fill-mode:forwards ;
+  }
+  
+  .active{
+    background-color: rgb(124, 120, 120);
+  }
+  
+  .book
+  {
+    position: absolute;
+    text-align: center;
+    font-size: xx-large;
+    color:rgb(12, 12, 151);
+    text-shadow:1px 1px black;
+    bottom:77%;
+    left:50%;
+  }
+  
+  .photo
+  {
+    position: absolute;
+    width:20%;
+    height:500px;
+  }
+  
+  .information
+  {
+    position: relative;
+  }
+  
+  .t
+  {
+    font-size: large;
+    font-weight: bold;
+    color:rgb(43, 184, 231);
+    padding: 120px;
+    line-height: 40px;
+  }
+  
+  .tt
+  {
+    color:black;
+    position: absolute;
+    left:20%;
+    width:75%;
+    padding:10px;
+    top:35%;
+    font-size: 20px;
+  }
+  
+  .bb
+  {
+    color:black;
+    position: absolute;
+    left:20%;
+    width:75%;
+    bottom:42%;
+    padding:10px;
+    font-size: 20px;
+  }
+  
+  .namep
+  {
+    position: absolute;
+    left:20%;
+    bottom:66%;
+  }
+  
+  .phonep
+  {
+    position: absolute;
+    left:20%;
+    top:45%;
+  }
+  
+  .brand
+  {
+    position: absolute;
+    left:20%;
+    top:60%;
+  }
+  
+  .select
+  {
+    position: absolute;
+    left:20%;
+    bottom:27%;
+    padding:10px;
+    width:20%;
+    font-size: 20px;
+  }
+  
+  .model
+  {
+    position: absolute;
+    left:20%;
+    bottom:33%;
+  }
+  
+  .models
+  {
+    position: absolute;
+    left:20%;
+    bottom:27%;
+    padding:10px;
+    width:77%;
+    font-size: 20px;
+  }
+  
+  #submit{
+    background-color:green;
+    color: white;
+    position: absolute;
+    top: 550px;
+    padding: 10px 20px;
+    width: 300px;
+    left: 46%;
+    border-radius:20px;
+    opacity: .9;
+    cursor: pointer;
+    font-size: 20px;
+    border: none;
+    outline: none;
+  }
+  #submit:hover{
+      opacity: 1;
+  }

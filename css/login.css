@@ -1,0 +1,160 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* start of Nav bar */
+
+nav{
+    background-color: rgb(0, 0, 155);
+    overflow: hidden;
+    padding-bottom: 30px;
+    position: relative;
+}
+
+nav ul{
+    list-style-type: none;
+    margin-left: 120px;
+}
+
+nav ul li{
+    float: left;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+    padding: 30px 20px;
+    font-weight: bold;
+    text-shadow: 2px 2px black;
+}
+
+nav ul li:nth-child(7){
+   position: absolute;
+   left: 1130px;
+}
+
+nav ul li:nth-child(6){
+    position: absolute;
+    left: 1010px;
+}
+.fas{
+    font-size: 24px;
+    color: black;
+    padding-right: 5px;
+}
+
+@keyframes example{
+    from{background-color: none;}
+    to{background-color: rgb(124, 120, 120);}
+}
+
+nav ul li a:hover{
+    animation-name: example;
+    animation-duration: 1s;
+    animation-fill-mode:forwards ;
+}
+
+.active{
+    background-color: rgb(124, 120, 120);
+}
+
+.form{
+    width: 50%;
+    height: 500px;
+    margin:auto;
+    margin-top: 30px;
+    border: 2px solid ;
+    position: relative;
+}
+
+.log
+{
+    text-align: center;
+}
+.username
+{
+    font-weight:bold;
+    position: absolute;
+    left:10px;
+    top:210px;  
+    font-size: 20px;
+}
+.password
+{
+    font-weight:bold;
+    position: absolute;
+    left:10px;
+    top:305px;  
+    font-size: 20px;
+}
+.user{
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #f1f1f1;
+    box-sizing: border-box;
+    cursor: text;
+
+  }
+  .pass
+  {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #f1f1f1;
+    box-sizing: border-box;
+    cursor: text;
+  }
+  .first {
+    margin: 18px;
+  }
+  .submit {
+    background-color:green;
+    color: white;
+    position: absolute;
+    top: 550px;
+    padding: 10px 20px;
+    width: 300px;
+    left: 40%;
+    border-radius:20px;
+    opacity: .9;
+    cursor: pointer;
+    font-size: 18px;
+    border: none;
+    outline: none;
+  }
+  .forgot{
+      position: absolute;
+      bottom: 40px;
+      right: 40px;
+  }
+
+  .user:focus , .pass:focus{
+      background-color: #ddd;
+      outline: none;
+  }
+
+  .submit:hover{
+      opacity: 1;
+  }
+
+  .save{
+      position: absolute;
+      top: 393px;
+      left: 10px;
+      font-size: 20px;
+      font-weight: bold;
+  }
+  #save{
+      position: absolute;
+      top: 400px;
+      left: 150px;
+      cursor: pointer;
+  }

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/login.css">
+</head>
+
+<body>
+
+    <section class="Nav-bar"> 
+        <naV> <!-- Start of Nav bar -->
+            <ul>
+                <li> <a href="index.html">Home</a> </li>
+                <li> <a href="Mercedes.html">Mercedes</a> </li>
+                <li> <a href="BMW.html">BMW</a> </li>
+                <li> <a href="foard.html">Foard</a> </li>
+                <li> <a href="Book.html">Book Now</a> </li>
+                <li> <a href="#" class="active">Login</a> </li> 
+                <li> <a href="register.html">Register</a> </li>
+            </ul>
+        </naV> <!-- End of Nav bar -->
+    </section>
+
+    <form class="form" >
+        <div class="log">
+            <img src="../images/login.png" alt="no photo" class="image" width=200 height="200">
+        </div>
+        <div class="first">
+
+            <label class="username">Username</label><br>
+            <input type="text" name="uname" id="username" placeholder="Enter Username" class="user"><br>
+
+            <label class="password">Password</label><br>
+            <input type="password" name="psw" id="password" placeholder="Enter Password" class="pass">
+
+            <label class="save">Remember Me:</label>
+            <input type="checkbox" checked="checked" name="save" id="save"> 
+            
+            <span class="forgot">Forgot <a href="#">password?</a> </span>
+        </div>
+    </form>
+    <input type="submit" id="sub" class="submit" name="subm">
+    <script src="../js/login.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,453 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    background-color: rgb(0, 0, 155);
+    overflow: hidden;
+    padding-bottom: 30px;
+    position: relative;
+}
+nav ul{
+    list-style-type: none;
+    margin-left: 120px;
+}
+nav ul li{
+    float: left;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+    padding: 30px 20px;
+    font-weight: bold;
+    text-shadow: 2px 2px black;
+}
+nav ul li:nth-child(7){
+   position: absolute;
+   left: 1130px;
+}
+nav ul li:nth-child(6){
+    position: absolute;
+    left: 1010px;
+}
+.fas{
+    font-size: 24px;
+    color: black;
+    padding-right: 5px;
+}
+@keyframes example{
+    from{background-color: none;}
+    to{background-color: rgb(124, 120, 120);}
+}
+nav ul li a:hover{
+    animation-name: example;
+    animation-duration: .75s;
+    animation-fill-mode:forwards ;
+}
+.active{
+    background-color: rgb(124, 120, 120);;
+}
+.background{
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+.car1
+{
+    position: relative;
+    width:100%;
+    height: 530px;
+    margin-bottom: 100px;
+}
+.firstcar{
+    position: absolute;
+    right: 5px;
+    top: 100px;
+}
+.carh{
+    position: absolute;
+    left: 27%;
+    font-size: 60px;
+    font-style: italic;
+    top: 40px;
+    color: rgb(44, 44, 150);
+}
+.data1{
+    list-style-type: decimal;
+    position: absolute;
+    top: 170px;
+    left: 23%;
+    font-size: 32px;
+    font-style: italic;
+    color: rgb(19, 19, 109);
+    font-family: monospace;
+}
+.btn-1{
+    position: absolute;
+    top: 470px;
+    left: 26%;
+    font-size: 30px;
+    padding: 10px 40px;
+    background-color: cyan;
+    border-radius: 10px;
+    cursor: pointer;
+    outline: none;
+}
+@keyframes hover{
+    from{background-color: cyan;}
+    to{background-color: darkblue;}
+}
+.btn-1:hover{
+    animation-name: hover;
+    animation-duration: .75s;
+    animation-fill-mode:forwards ;
+}
+.car2
+{
+    position: relative;
+    width:100%;
+    height: 530px;
+    margin-bottom: 100px;
+}
+.secondcar{
+    position: absolute;
+    right: 5px;
+    top: 100px;
+}
+.carj{
+    position: absolute;
+    left: 27%;
+    font-size: 60px;
+    font-style: italic;
+    top: 40px;
+    color: rgb(44, 44, 150);
+}
+.data2{
+    list-style-type: decimal;
+    position: absolute;
+    top: 170px;
+    left: 23%;
+    font-size: 32px;
+    font-style: italic;
+    color: rgb(19, 19, 109);
+    font-family: monospace;
+}
+.btn-2{
+    position: absolute;
+    top: 470px;
+    left: 26%;
+    font-size: 30px;
+    padding: 10px 40px;
+    background-color: cyan;
+    border-radius: 10px;
+    outline: none;
+    cursor: pointer;
+}
+.btn-2:hover{
+    animation-name: hover;
+    animation-duration: .75s;
+    animation-fill-mode:forwards ;
+}
+.car3
+{
+    position: relative;
+    width:100%;
+    height: 530px;
+    margin-bottom: 100px;
+}
+.thirdcar{
+    position: absolute;
+    right: 5px;
+    top: 100px;
+}
+.carg{
+    position: absolute;
+    left: 27%;
+    font-size: 60px;
+    font-style: italic;
+    top: 40px;
+    color: rgb(44, 44, 150);
+}
+.data3{
+    list-style-type: decimal;
+    position: absolute;
+    top: 170px;
+    left: 23%;
+    font-size: 32px;
+    font-style: italic;
+    color: rgb(19, 19, 109);
+    font-family: monospace;
+}
+.btn-3{
+    position: absolute;
+    top: 470px;
+    left: 26%;
+    font-size: 30px;
+    padding: 10px 40px;
+    background-color: cyan;
+    border-radius: 10px;
+    outline: none;
+    cursor: pointer;
+}
+.btn-3:hover{
+    animation-name: hover;
+    animation-duration: .75s;
+    animation-fill-mode:forwards ;
+}
+.car4
+{
+    position: relative;
+    width:100%;
+    height: 530px;
+    margin-bottom: 100px;
+}
+.fourthcar{
+    position: absolute;
+    right: 5px;
+    top: 100px;
+}
+.cark{
+    position: absolute;
+    left: 27%;
+    font-size: 60px;
+    font-style: italic;
+    top: 40px;
+    color: rgb(44, 44, 150);
+}
+.data4{
+    list-style-type: decimal;
+    position: absolute;
+    top: 170px;
+    left: 23%;
+    font-size: 32px;
+    font-style: italic;
+    color: rgb(19, 19, 109);
+    font-family: monospace;
+}
+.btn-4{
+    position: absolute;
+    top: 470px;
+    left: 26%;
+    font-size: 30px;
+    padding: 10px 40px;
+    background-color: cyan;
+    border-radius: 10px;
+    outline: none;
+    cursor: pointer;
+}
+.btn-4:hover{
+    animation-name: hover;
+    animation-duration: .75s;
+    animation-fill-mode:forwards ;
+}
+
+.End{
+    background-image: url("../images/End.jpg");
+    background-size: cover;
+    background-repeat:no-repeat ;
+    width: 100%;
+    height: 650px;
+    position: relative;
+    top: 50px;
+}
+
+.down-logo{
+    color: white;
+    position: relative;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.down-logo h2{
+    position: absolute;
+    left: 46%;
+    top: 50px;
+}
+.down-logo p{
+    position: absolute;
+    left: 38%;
+    top: 90px;
+}
+
+.down-logo p::after{
+    content: "";
+    width: 1200px;
+    position: absolute;
+    left: 43%;
+    top: 50px;
+    height: 5px;
+    transform: translate(-50%,-50%);
+    background-color: gray;
+}
+
+.big-div{
+    position: relative;
+}
+.visit{
+    position: absolute;
+    top: 250px;
+    left: 250px;
+    color: white;
+}
+.visit h2{
+    font-size: 22px;
+}
+.visit h2::after{
+    content: "";
+    width: 100%;
+    position: absolute;
+    left: 50%;
+    top: 50px;
+    height: 5px;
+    transform: translate(-50%,-50%);
+    background-color: gray;
+}
+
+.visit ul{
+    position: absolute;
+    top: 70px;
+    left: 70px;
+    font-size:20px ;
+    list-style-type: none;
+
+}
+.visit ul li{
+    margin-bottom: 20px;
+    cursor: pointer;
+    color: rgb(105, 102, 102);
+}
+.visit ul li:hover{
+    color: blue;
+    font-style: oblique;
+}
+
+.social{
+    color: white;
+    position: absolute;
+    top: 280px;
+    left: 46%;
+    
+}
+
+.social h2{
+    font-size: 24px;   
+}
+.social h2::after{
+    content: "";
+    width: 130px;
+    position: absolute;
+    left: 65px;
+    top: 40px;
+    height: 5px;
+    transform: translate(-50%,-50%);
+    background-color: gray;
+}
+
+.face{
+    position: absolute;
+    top: 80px;
+    left: -30px;
+    font-size:36px;
+    padding: 10px 10px;
+    color: blue;
+    cursor: pointer;
+    transition: font-size .75s;
+}
+
+.twitter{
+    position: absolute;
+    top: 80px;
+    left: 40px;
+    font-size:36px;
+    padding: 10px 10px;
+    color: rgb(9, 179, 179);
+    cursor: pointer;
+    transition: font-size .75s;
+}
+
+.insta{
+    position: absolute;
+    top: 80px;
+    left: 105px;
+    color: rgb(170, 46, 170);
+    font-size:36px;
+    padding: 10px 10px;
+    cursor: pointer;
+    transition: font-size .75s;
+}
+
+.face:hover{
+    font-size: 40px;
+}
+.twitter:hover{
+    font-size: 40px;
+}
+.insta:hover{
+    font-size: 40px;
+}
+
+.pages{
+    position: absolute;
+    top: 250px;
+    left: 930px;
+}
+
+.pages h2{
+    color: white;
+    font-size: 24px;
+}
+
+.pages h2::after{
+    content: "";
+    width: 90px;
+    position: absolute;
+    left: 35px;
+    top: 40px;
+    height: 5px;
+    transform: translate(-50%,-50%);
+    background-color: gray;
+}
+
+.pages ul{
+    position: absolute;
+    top: 60px;
+    list-style-type: none;
+    left: 10px;
+}
+
+.pages ul li{
+    padding-bottom: 20px;
+}
+
+.pages ul li a{
+    text-decoration: none;
+    color: rgb(105, 102, 102);
+    font-size: 20px;
+}
+.pages ul li a:hover{
+    color: blue;
+    font-style: oblique;
+}
+
+.pages::after{
+    content: "";
+    width: 1200px;   
+    position: absolute;
+    top: 290px;
+    left: -270px;
+    height: 5px;
+    transform: translate(-50%,-50%);
+    background-color: gray;
+}
+
+.copy-right{
+    color: white;
+    position: absolute;
+    top: 570px;
+    left: 40%;
+    font-size: 40px;
+}
+
+/* End of down page */

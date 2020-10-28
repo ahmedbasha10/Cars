@@ -1,0 +1,177 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* start of Nav bar */
+
+nav{
+    background-color: rgb(0, 0, 155);
+    overflow: hidden;
+    padding-bottom: 30px;
+    position: relative;
+}
+
+nav ul{
+    list-style-type: none;
+    margin-left: 120px;
+}
+
+nav ul li{
+    float: left;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+    padding: 30px 20px;
+    font-weight: bold;
+    text-shadow: 2px 2px black;
+}
+
+nav ul li:nth-child(7){
+   position: absolute;
+   left: 1130px;
+}
+
+nav ul li:nth-child(6){
+    position: absolute;
+    left: 1010px;
+}
+.fas{
+    font-size: 24px;
+    color: black;
+    padding-right: 5px;
+}
+
+@keyframes example{
+    from{background-color: none;}
+    to{background-color: rgb(124, 120, 120);}
+}
+
+nav ul li a:hover{
+    animation-name: example;
+    animation-duration: .75s;
+    animation-fill-mode:forwards ;
+}
+
+.active{
+    background-color: rgb(124, 120, 120);;
+}
+
+/* End of Nav bar */
+/* Start of form */
+
+.foorm{
+    width: 60%;
+    border: 2px solid black;
+    position: relative;
+    left: 270px;
+    top: 50px;
+    height: 730px;
+}
+
+.foorm h1{
+    position: absolute;
+    left: 43%;
+    top: 30px;
+}
+.foorm p{
+    position: absolute;
+    left: 30%;
+    top: 80px;
+    font-size: 20px;
+}
+
+.foorm p::after{
+    content: "";
+    width: 350px;
+    position: absolute;
+    left: 175px;
+    top: 40px;
+    height: 5px;
+    transform: translate(-50%,-50%);
+    background-color: gray;
+}
+
+.reg1{
+    position: absolute;
+    top: 140px;
+    padding: 10px 10px;
+}
+
+.reg1 input[type=text] , .reg1 input[type=password]{
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #f1f1f1;
+    box-sizing: border-box;
+    cursor: text;
+}
+.reg1 input[type=number]{
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #f1f1f1;
+    box-sizing: border-box;
+    cursor: text;
+}
+
+.female {
+    margin-left: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.male, .email1, .password, .reapetedpassword, .phonenumber{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.reg1 input[type=date]{
+    position: absolute;
+    bottom: -50px;
+    left: 85px;
+    width: 30%;
+    cursor: pointer;
+}
+
+.date{
+    position: absolute;
+    bottom: -47px;
+    left: 10px;
+}
+
+.button{
+    position: absolute;
+    bottom: -150px;
+    left: 27%;
+    width: 50%;
+    height: 40px;
+    background-color: rgb(41, 160, 41);
+    opacity: .9;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    border-radius: 20px;
+}
+.privacy{
+    position: absolute;
+    bottom: -90px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.button:hover{
+    opacity: 1;
+}
+.reg1 input[type=text]:focus, .reg1 input[type=password]:focus, .reg1 input[type=number]:focus{
+    background-color: #ddd;
+    outline: none;
+}
+
+/* End of form */
